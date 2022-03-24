@@ -1,4 +1,5 @@
 import * as React from "react";
-export const Button = () => {
-  return <button>Boopxx</button>;
+import { ButtonStyle } from "./Button.css";
+export const Button = ({children}) => {
+  return <button className={ButtonStyle}>{children}</button>;
 };

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import logo from './logo.svg'
-import {Button} from "ui"
+import {Button,Root} from "ui"
 import './App.css'
 
 function App() {
@@ -19,7 +19,9 @@ function App() {
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
-        <Button>Hello</Button>
+        <Root>
+          <Button>Hello</Button>
+        </Root>
         <p>
           <a
             className="App-link"
