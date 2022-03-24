@@ -5,12 +5,12 @@ export const AppClass = style({
 })
 
 export const AppLogoClass = style({
-  width: "40vmin",
+  width: "30vmin",
   pointerEvents: "none"
 })
 
 export const AppHeaderClass = style({
-  backgroundColor: "#282c34",
+  backgroundColor: "#333",
   minHeight: "100vh",
   display: "flex",
   flexDirection: "column",

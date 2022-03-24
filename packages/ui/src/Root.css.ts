@@ -5,6 +5,6 @@ export const [RootClass, rootVars] = createTheme({
     brand: '#ccc'
   },
   font: {
-    body: 'arial'
+    body: 'Roboto'
   }
 });
