@@ -7,7 +7,7 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build": "build-storybook -o public"
   },
   "devDependencies": {
     "@types/react": "^17.0.37",
