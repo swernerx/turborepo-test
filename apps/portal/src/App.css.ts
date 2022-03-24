@@ -5,7 +5,7 @@ export const AppClass = style({
 })
 
 export const AppLogoClass = style({
-  height: "40vmin",
+  width: "40vmin",
   pointerEvents: "none"
 })
 
