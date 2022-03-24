@@ -10,7 +10,7 @@ export const AppLogoClass = style({
 })
 
 export const AppHeaderClass = style({
-  backgroundColor: "#333",
+  backgroundColor: "#234",
   minHeight: "100vh",
   display: "flex",
   flexDirection: "column",
