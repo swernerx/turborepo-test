@@ -1,0 +1,29 @@
+{
+  "name": "storybook-config",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "files": [
+    "config"
+  ],
+  "bin": {
+    "start-storybook": "./node_modules/.bin/start-storybook",
+    "build-storybook": "./node_modules/.bin/build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-interactions": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/builder-webpack5": "^6.4.19",
+    "@storybook/manager-webpack5": "^6.4.19",
+    "@storybook/react": "^6.4.19",
+    "@storybook/testing-library": "^0.0.9",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "babel-loader": "^8.2.4",
+    "typescript": "^4.5.3",
+    "@vanilla-extract/webpack-plugin": "^2.1.6"
+  }
+}

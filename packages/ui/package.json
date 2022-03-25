@@ -6,29 +6,18 @@
   "license": "MIT",
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "dev": "start-storybook -p 6006 --quiet",
-    "build": "build-storybook -o public"
+    "dev": "start-storybook -p 6006 -c node_modules/storybook-config/config --quiet",
+    "build": "build-storybook -c node_modules/storybook-config/config -o public"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.8",
-    "@storybook/addon-actions": "^6.4.19",
-    "@storybook/addon-essentials": "^6.4.19",
-    "@storybook/addon-interactions": "^6.4.19",
-    "@storybook/addon-links": "^6.4.19",
-    "@storybook/builder-webpack5": "^6.4.19",
-    "@storybook/manager-webpack5": "^6.4.19",
-    "@storybook/react": "^6.4.19",
-    "@storybook/testing-library": "^0.0.9",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
-    "babel-loader": "^8.2.4",
+    "storybook-config": "workspace:*",
     "config": "workspace:*",
     "tsconfig": "workspace:*",
-    "typescript": "^4.5.3",
-    "@vanilla-extract/webpack-plugin": "^2.1.6"
+    "typescript": "^4.5.3"
   },
   "dependencies": {
     "@vanilla-extract/css": "^1.6.8"
-
   }
 }
