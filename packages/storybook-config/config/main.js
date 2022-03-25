@@ -2,6 +2,7 @@ const { VanillaExtractPlugin } = require('@vanilla-extract/webpack-plugin');
 
 module.exports = {
   "stories": [
+    // FIXME: Pfade lokal zugreifbar machen
     "../src/**/*.stories.mdx",
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
   ],
