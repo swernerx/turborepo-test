@@ -1,5 +1,5 @@
 import { style } from '@vanilla-extract/css';
-import { rootVars } from './Root.css';
+import { rootVars } from '../Root.css';
 
 export const ButtonStyle = style({
   backgroundColor: rootVars.color.brand,
@@ -18,3 +18,11 @@ export const ButtonStyle = style({
     backgroundColor: "rgb(30, 200, 200)"
   }
 });
+
+export const PrimaryButtonStyle = style([
+  ButtonStyle,
+  {
+    backgroundColor: rootVars.color.primary,
+    padding: "6px 22px"
+  }
+])
