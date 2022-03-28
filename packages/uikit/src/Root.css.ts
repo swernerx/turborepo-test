@@ -6,6 +6,6 @@ export const [RootClass, rootVars] = createTheme({
     primary: "rgb(167, 243, 208)"
   },
   font: {
-    body: "Roboto"
+    body: "sans-serif"
   }
 })
