@@ -1,11 +1,12 @@
 {
-  "extends": "tsconfig/main.json",
+  "extends": "@azeti-iot/typescript-config/main.json",
   "include": [
     "."
   ],
   "exclude": [
     "dist",
     "build",
+    "public",
     "node_modules"
   ]
 }

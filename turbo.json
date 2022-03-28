@@ -7,6 +7,9 @@
     "lint": {
       "outputs": []
     },
+    "check": {
+      "outputs": []
+    },
     "dev": {
       "cache": false
     }
