@@ -1,5 +1,4 @@
 {
-  "sourceType": "unambiguous",
   "presets": [
     [
       "@babel/preset-env",
@@ -10,6 +9,7 @@
         "corejs": "3.21.1"
       }
     ],
-    "@babel/preset-typescript"
+    "@babel/preset-typescript",
+    "@babel/preset-react"
   ]
 }
