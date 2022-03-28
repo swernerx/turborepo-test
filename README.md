@@ -49,6 +49,12 @@ To develop all apps and packages, run the following command:
 pnpm run dev
 ```
 
+## Findings
+
+- PNPM installation still has issues with *Remix* application framework on Vercel related to access to files outside of root.
+- Yarn v1 is dated (bug fixes only) and PNPM outperforms it by a major margin. Yarn v2/v3 is not yet officially supported by TurboRepo.
+- NPM v8 is super stable and it's traditional package installation is very well supported. Even with workspaces. But it looses dramatically on performance compared to PNPM.
+
 ## Useful Links
 
 Learn more about the power of Turborepo:
