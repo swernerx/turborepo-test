@@ -5,21 +5,11 @@
       "@babel/preset-env",
       {
         "shippedProposals": true,
-        "loose": true
+        "loose": true,
+        "useBuiltIns": "usage",
+        "corejs": "3.21.1"
       }
     ],
     "@babel/preset-typescript"
-  ],
-  "plugins": [
-    "@babel/plugin-syntax-dynamic-import",
-    "@babel/plugin-proposal-optional-chaining",
-    [
-      "babel-plugin-polyfill-corejs3",
-      {
-        "method": "usage-global",
-        "absoluteImports": "core-js",
-        "version": "3.21.1"
-      }
-    ]
   ]
 }

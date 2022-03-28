@@ -96,15 +96,19 @@ importers:
       '@types/react': ^17.0.37
       '@types/react-dom': ^17.0.11
       '@vanilla-extract/css': ^1.6.8
+      browserslist: ^4.20.2
       config: workspace:*
+      core-js: ^3.21.1
       storybook-config: workspace:*
       tsconfig: workspace:*
       typescript: ^4.5.3
     dependencies:
       '@vanilla-extract/css': 1.6.8
+      core-js: 3.21.1
     devDependencies:
       '@types/react': 17.0.42
       '@types/react-dom': 17.0.14
+      browserslist: 4.20.2
       config: link:../config
       storybook-config: link:../storybook-config
       tsconfig: link:../tsconfig
@@ -5558,7 +5562,6 @@ packages:
   /core-js/3.21.1:
     resolution: {integrity: sha512-FRq5b/VMrWlrmCzwRrpDYNxyHP9BcAZC+xHJaqTgIE5091ZV1NTmyh0sGOg5XqpnHvR0svdy0sv1gWA1zmhxig==}
     requiresBuild: true
-    dev: true
 
   /core-util-is/1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
