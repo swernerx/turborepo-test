@@ -1,3 +1,5 @@
 root: true
 extends:
-  - @effective/eslint-config-factory
+  - "@effective/eslint-config-factory/react"
+rules:
+  react/react-in-jsx-scope: off

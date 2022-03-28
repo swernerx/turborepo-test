@@ -18,6 +18,7 @@ importers:
 
   apps/portal:
     specifiers:
+      '@azeti-iot/typescript-config': workspace:*
       '@azeti-iot/uikit': workspace:*
       '@emotion/react': ^11.8.2
       '@emotion/styled': ^11.8.1
@@ -33,6 +34,7 @@ importers:
       typescript: ^4.5.4
       vite: ^2.8.0
     dependencies:
+      '@azeti-iot/typescript-config': link:../../packages/typescript-config
       '@azeti-iot/uikit': link:../../packages/uikit
       '@emotion/react': 11.8.2_03a98942b76c57740a9573edba2d1cc1
       '@emotion/styled': 11.8.1_ab60dc3cf3b46d6599c9cb98d57741dd
