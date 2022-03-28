@@ -1,2 +1,2 @@
-export * from "./atoms";
-export * from "./Root";
+export * from "./atoms"
+export * from "./Root"

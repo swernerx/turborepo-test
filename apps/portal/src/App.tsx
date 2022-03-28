@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import {Button,Root} from "ui"
-import MaterialButton from '@mui/material/Button';
-import MaterialSlider from '@mui/material/Slider';
-import { AppClass, AppHeaderClass, AppLogoClass } from './App.css'
+import { useState } from "react"
+import logo from "./logo.svg"
+import { Button, Root } from "ui"
+import MaterialButton from "@mui/material/Button"
+import MaterialSlider from "@mui/material/Slider"
+import { AppClass, AppHeaderClass, AppLogoClass } from "./App.css"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,18 +15,22 @@ function App() {
         <Root>
           <h1>Hello</h1>
 
-          <p>
-          Counter: {count}
-          </p>
+          <p>Counter: {count}</p>
 
           <h2>Vanilla Extract</h2>
-          <Button onClick={() => setCount((count) => count + 1)}>Increment</Button>
+          <Button onClick={() => setCount((count) => count + 1)}>
+            Increment
+          </Button>
 
-          <br/>
+          <br />
 
           <h2>Material-UI</h2>
           <MaterialSlider />
-          <MaterialButton variant="contained" onClick={() => setCount((count) => count + 1)}>Increment</MaterialButton>
+          <MaterialButton
+            variant="contained"
+            onClick={() => setCount((count) => count + 1)}>
+            Increment
+          </MaterialButton>
         </Root>
       </header>
     </div>

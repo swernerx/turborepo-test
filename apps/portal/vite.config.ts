@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite'
-import reactPlugin from '@vitejs/plugin-react'
-import { vanillaExtractPlugin }  from '@vanilla-extract/vite-plugin'
+import { defineConfig } from "vite"
+import reactPlugin from "@vitejs/plugin-react"
+import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin"
 
 // https://vitejs.dev/config/
 export default defineConfig({
