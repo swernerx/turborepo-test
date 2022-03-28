@@ -1,0 +1,3 @@
+root: true
+extends:
+  - @effective/eslint-config-factory
