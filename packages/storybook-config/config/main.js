@@ -15,6 +15,9 @@ module.exports = {
     "builder": "webpack5"
   },
   features: {
+    // Activate on-demand loading of stories
+    storyStoreV7: true,
+
     // Use our own Babel configuration
     babelModeV7: true,
   },
