@@ -6,7 +6,7 @@ const configFolder = path.resolve(__dirname, "../config");
 const binPath = path.resolve(__dirname, "../node_modules/.bin/start-storybook");
 
 (async () => {
-  const params = ["--config-dir", configFolder, "--quiet", "-o", "public"];
+  const params = ["--config-dir", configFolder, "--quiet"];
 
   try {
     const cmd = execa(binPath, params);
