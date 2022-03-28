@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "dev": "start-storybook -p 6006 -c node_modules/storybook-config/config --quiet",
-    "build": "build-storybook -c node_modules/storybook-config/config -o public"
+    "dev": "start-storybook -p 6006 --quiet",
+    "build": "build-storybook -o public"
   },
   "devDependencies": {
     "@types/react": "^17.0.37",
