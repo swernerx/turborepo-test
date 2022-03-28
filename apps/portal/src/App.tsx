@@ -1,6 +1,6 @@
 import { useState } from "react"
 import logo from "./logo.svg"
-import { Button, Root } from "ui"
+import { Button, Root } from "@azeti-iot/uikit"
 import MaterialButton from "@mui/material/Button"
 import MaterialSlider from "@mui/material/Slider"
 import { AppClass, AppHeaderClass, AppLogoClass } from "./App.css"
