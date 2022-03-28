@@ -1,41 +1,43 @@
 # AZETI :: IOT-MONO
 
-# Turborepo starter with pnpm
+## Status
 
-This is an official starter turborepo.
+### Working
 
-## What's inside?
+- *PNPM* for workspace package installation
+- *TurboRepo* for advanced build management
+- *Vite* for application development/bundling
+- *Storybook* for component development/browsing
+- *TSC* for TypeScript conformance checks
+- *ESLint* for TypeScript/JavaScript linting
+- *Prettier* for automatic code formatting
+- *Vercel* for development deployments (App + UIKit Storybook)
 
-This turborepo uses [pnpm](https://pnpm.io) as a packages manager. It includes the following packages/apps:
+### Open
 
-### Apps and Packages
+- *Jest* and *React Testing Library* for unit testing
+- *Chromatic* for visual Storybook testing
+- *Playground* for E2E testing
 
-- `docs`: a [Next.js](https://nextjs.org) app
-- `web`: another [Next.js](https://nextjs.org) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+## Folders
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+### Apps
 
-### Utilities
+- *Portal*: Main application for the IOT portal
 
-This turborepo has some additional tools already setup for you:
+### Packages
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+- *Storybook-Config*: Shared configuration and dependencies for component browser
+- *TypeScript-Config*: Shared configuration and dependencies for TypeScript compiler
+- *UIKit*: Shared components and Material-UI wrappers
 
-## Setup
-
-This repository is used in the `npx create-turbo@latest` command, and selected when choosing which package manager you wish to use with your monorepo (PNPM).
+## Tasks
 
 ### Build
 
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
 pnpm run build
 ```
 
@@ -44,27 +46,7 @@ pnpm run build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
 pnpm run dev
-```
-
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching (Beta)](https://turborepo.org/docs/features/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching (Beta) you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-pnpx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your turborepo:
-
-```
-pnpx turbo link
 ```
 
 ## Useful Links
